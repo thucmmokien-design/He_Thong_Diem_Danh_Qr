@@ -21,5 +21,10 @@ namespace He_Thong_Diem_Danh_Qr.UI
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

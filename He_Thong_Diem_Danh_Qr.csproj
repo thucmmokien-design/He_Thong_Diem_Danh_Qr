@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="UI\images.jpg" />
+    <None Remove="UI\3dca3db9-78c2-4f40-9533-e816f6def63e.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="UI\images.jpg" />
+    <Resource Include="UI\3dca3db9-78c2-4f40-9533-e816f6def63e.jpg" />
   </ItemGroup>
 
 </Project>
