@@ -1,0 +1,9 @@
+﻿<Application x:Class="He_Thong_Diem_Danh_Qr.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:He_Thong_Diem_Danh_Qr"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
