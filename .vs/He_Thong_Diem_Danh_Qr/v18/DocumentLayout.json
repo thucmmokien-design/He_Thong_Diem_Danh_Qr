@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\He_Thong_Diem_Danh_Qr\\He_Thong_Diem_Danh_Qr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\source\\repos\\he_thong_diem_danh_qr\\he_thong_diem_danh_qr\\ui\\pagelogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:ui\\pagelogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\source\\repos\\he_thong_diem_danh_qr\\he_thong_diem_danh_qr\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 204,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\He_Thong_Diem_Danh_Qr\\He_Thong_Diem_Danh_Qr\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\He_Thong_Diem_Danh_Qr\\He_Thong_Diem_Danh_Qr\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T02:06:42.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageLogin.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\He_Thong_Diem_Danh_Qr\\He_Thong_Diem_Danh_Qr\\UI\\PageLogin.xaml",
+              "RelativeDocumentMoniker": "UI\\PageLogin.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\He_Thong_Diem_Danh_Qr\\He_Thong_Diem_Danh_Qr\\UI\\PageLogin.xaml",
+              "RelativeToolTip": "UI\\PageLogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T02:06:06.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

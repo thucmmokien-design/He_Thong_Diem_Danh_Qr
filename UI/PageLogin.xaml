@@ -1,0 +1,17 @@
+﻿<Window x:Class="He_Thong_Diem_Danh_Qr.UI.PageLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:He_Thong_Diem_Danh_Qr.UI"
+        mc:Ignorable="d"
+        Title="PageLogin" Height="650" Width="500"
+        WindowStartupLocation="CenterScreen" OpacityMask="#FF090909">
+    <Grid>
+        <Border >
+            <Border.Background>
+                <ImageBrush ImageSource="/UI/images.jpg"/>
+            </Border.Background>
+        </Border>
+    </Grid>
+</Window>
