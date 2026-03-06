@@ -13,8 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Dao\" />
+    <Folder Include="BackEnd\Dao\" />
     <Folder Include="Service\" />
   </ItemGroup>
 
