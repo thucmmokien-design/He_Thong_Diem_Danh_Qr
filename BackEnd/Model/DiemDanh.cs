@@ -16,6 +16,4 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Model
 
         public string status { get; set; }
     }
-
-    
 }
