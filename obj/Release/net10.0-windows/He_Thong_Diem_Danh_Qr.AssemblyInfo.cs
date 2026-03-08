@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("He_Thong_Diem_Danh_Qr")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb2e7f231c740b831cfda0bcc728630c26ad9ed8")]
 [assembly: System.Reflection.AssemblyProductAttribute("He_Thong_Diem_Danh_Qr")]
