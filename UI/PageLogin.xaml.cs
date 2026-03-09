@@ -21,10 +21,24 @@ namespace He_Thong_Diem_Danh_Qr.UI
         {
             InitializeComponent();
         }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
+            if (string.IsNullOrWhiteSpace(txtUsername.Text) ||string.IsNullOrWhiteSpace(txtPassword.Password))
+            {
+                MessageBox.Show("Bạn điền thiếu thông tin");
+                return;
+            }
+            if (txtUsername.Text == "admin" && txtPassword.Password == "123")
+            {
+                MessageBox.Show("Login Thanh Cong");
+                PageHome home = new PageHome();
+                home.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu");
+            }
         }
     }
 }

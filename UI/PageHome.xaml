@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:He_Thong_Diem_Danh_Qr.UI"
         mc:Ignorable="d"
-        Title="PageHome" Height="450" Width="800">
+        Title="PageHome" Height="750" Width="1500"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <!-- Cột menu trái, chiếm 200px -->
+            <ColumnDefinition x:Name="SidebarColumn" Width="150"/>
+            <!-- Cột nội dung chính, chiếm phần còn lại -->
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- ========== THANH MENU BÊN TRÁI ========== -->
+        <Border Grid.Column="0"
+                Background="#2C3E50"
+                CornerRadius="0,10,10,0"
+                Padding="10">
+            <StackPanel VerticalAlignment="Top" Margin="0,20,0,0">
+                <Button x:Name="btnMenu"
+                        Content="☰ Menu"
+                        Style="{StaticResource SidebarButtonStyle}"
+                        Click="btnMenu_Click"/>
+                <Button x:Name="btnHome"
+                        Content="🏠 Home"
+                        Style="{StaticResource SidebarButtonStyle}"
+                        Click="btnHome_Click"/>
+                <!-- Nút Quản lý buổi học -->
+                <Button x:Name="btnQuanLyBuoiHoc"
+                        Content="📚 Quản lý buổi học"
+                        Style="{StaticResource SidebarButtonStyle}"
+                        Click="btnQuanLyBuoiHoc_Click"/>
+                <!-- Nút Kiểm tra chất lượng chuyên cần -->
+                <Button x:Name="btnKiemTraChuyenCan"
+                        Content="📊 Kiểm tra chuyên cần"
+                        Style="{StaticResource SidebarButtonStyle}"
+                        Click="btnKiemTraChuyenCan_Click"/>
+                <!-- Nút Setting -->
+                <Button x:Name="btnSetting"
+                        Content="⚙ Setting"
+                        Style="{StaticResource SidebarButtonStyle}"
+                        Click="btnSetting_Click"/>
+            </StackPanel>
+        </Border>
+        <ContentControl x:Name="MainContenArea" Grid.Column="1"/>
     </Grid>
 </Window>

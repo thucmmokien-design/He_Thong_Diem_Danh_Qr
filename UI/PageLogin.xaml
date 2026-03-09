@@ -7,44 +7,8 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="Transparent">
-
-    <!-- 🔥 Đặt Style trong Resources -->
-    <Window.Resources>
-        <Style x:Key="RoundedTextBox" TargetType="TextBox">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="TextBox">
-                        <Border CornerRadius="20"
-                                BorderBrush="#CCCCCC"
-                                BorderThickness="1"
-                                Background="White">
-                            <ScrollViewer Margin="10"
-                                          x:Name="PART_ContentHost"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <Style x:Key="RoundedPasswordBox" TargetType="PasswordBox">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="PasswordBox">
-                        <Border CornerRadius="20"
-                                BorderBrush="#CCCCCC"
-                                BorderThickness="1"
-                                Background="White">
-                            <ScrollViewer Margin="10"
-                                          x:Name="PART_ContentHost"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Window.Resources>
-
     <Grid>
-        <Image Source="/UI/3dca3db9-78c2-4f40-9533-e816f6def63e.jpg"
+        <Image Source="/Resources/img/background.jpg"
                Stretch="UniformToFill"
                Opacity="0.8">
             <Image.Effect>
@@ -91,23 +55,16 @@
                          Height="45"
                          Style="{StaticResource RoundedPasswordBox}"
                          FontSize="16"
-                         Margin="0,0,0,25"/>
+                         Margin="0,0,0,35"/>
 
             <Button x:Name="btnLogin"
-                    Content="Đăng nhập"
-                    Width="204"
-                    Height="45"
+                    Content="Đăng Nhập"
+                    HorizontalContentAlignment="Center"
                     Background="#4CAF50"
-                    Foreground="White"
-                    FontSize="16"
-                    FontWeight="Bold"
-                    BorderBrush="Transparent"
-                    Cursor="Hand">
-                <Button.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="20"/>
-                    </Style>
-                </Button.Resources>
+                    Width="200px"
+                    Height="40px"
+                    Style="{StaticResource SidebarButtonStyle}"
+                    Click="btnLogin_Click">
             </Button>
         </StackPanel>
     </Grid>

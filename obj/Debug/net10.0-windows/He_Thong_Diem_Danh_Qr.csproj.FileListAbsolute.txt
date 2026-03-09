@@ -22,3 +22,6 @@ C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debu
 C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.pdb
 C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\ref\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageSendQr.g.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageSendQr.baml
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\App.baml
