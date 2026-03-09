@@ -13,11 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Resources\icon\" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\img\background.jpg" />
+=======
+    <Resource Include="UI\3dca3db9-78c2-4f40-9533-e816f6def63e.jpg" />
+>>>>>>> origin/Huy_Tung
   </ItemGroup>
 
 </Project>
