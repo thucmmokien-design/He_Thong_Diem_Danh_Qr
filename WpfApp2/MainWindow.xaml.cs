@@ -37,10 +37,10 @@ namespace WpfApp2
                 txtStatus.Text = "Không tìm thấy IP mạng!";
                 return;
             }
+            string random = Guid.NewGuid().ToString();
+            string url = $"http://{localIp}:5000/?id={random}";
 
-            string url = $"http://{localIp}:5000/";
-
-            txtIp.Text = $"Truy cập trên điện thoại: {url}";
+            txtIp.Text = $"Mã truy cập hiện tại: {url}";
             txtStatus.Text = "Đang khởi động server...";
 
             GenerateQr(url);
