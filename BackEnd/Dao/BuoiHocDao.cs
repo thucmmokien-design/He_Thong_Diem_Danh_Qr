@@ -1,5 +1,7 @@
-﻿using System;
+﻿using He_Thong_Diem_Danh_Qr.BackEnd.Model;
+using System;
 using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
 using System.Text;
 
 namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
@@ -39,12 +41,10 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
 
             return list;
         }
-
-        // them buoi hoc
-        public bool Insert(BuoiHoc bh)
+        public bool InsertBuoiHocnew(String class_id, DateTime date, DateTime end_time, String codeqr)
         {
-            string sql = "INSERT INTO buoi_hoc(class_id,ngay_hoc,start_time,end_time,qr_secret,is_active) " +
-                         "VALUES(@class_id,@ngay_hoc,@start_time,@end_time,@qr_secret,@is_active)";
+            string sql = "INSERT INTO buoi_hoc(class_id,ngay_hoc,end_time,qr_secret) " +
+                         "VALUES(@class_id,@ngay_hoc,@end_time,@qr_secret)";
 
             using (SqlConnection conn = ConnectDB.GetConnection())
             {
@@ -52,18 +52,13 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
 
-                cmd.Parameters.AddWithValue("@class_id", bh.class_id);
-                cmd.Parameters.AddWithValue("@ngay_hoc", bh.ngay_hoc);
-                cmd.Parameters.AddWithValue("@start_time", bh.start_time);
-                cmd.Parameters.AddWithValue("@end_time", bh.end_time);
-                cmd.Parameters.AddWithValue("@qr_secret", bh.qr_secret);
-                cmd.Parameters.AddWithValue("@is_active", bh.is_active);
-
+                cmd.Parameters.AddWithValue("@class_id", class_id);
+                cmd.Parameters.AddWithValue("@ngay_hoc", date);
+                cmd.Parameters.AddWithValue("@end_time", end_time);
+                cmd.Parameters.AddWithValue("@qr_secret", codeqr);
                 return cmd.ExecuteNonQuery() > 0;
             }
         }
-
-        // cap nhat buoi hoc
         public bool Update(BuoiHoc bh)
         {
             string sql = "UPDATE buoi_hoc " +
@@ -86,25 +81,6 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
                 return cmd.ExecuteNonQuery() > 0;
             }
         }
-
-        // xoa buoi hoc
-        public bool Delete(int session_id)
-        {
-            string sql = "DELETE FROM buoi_hoc " +
-                         "WHERE session_id=@session_id";
-            using (SqlConnection conn = ConnectDB.GetConnection())
-            {
-                conn.Open();
-
-                SqlCommand cmd = new SqlCommand(sql, conn);
-
-                cmd.Parameters.AddWithValue("@session_id", session_id);
-
-                return cmd.ExecuteNonQuery() > 0;
-            }
-        }
-
-        // lay buoi hoc theo id
         public BuoiHoc GetById(int session_id)
         {
             string sql = "SELECT * FROM buoi_hoc " +

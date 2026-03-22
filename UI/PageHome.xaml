@@ -9,42 +9,78 @@
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
-            <!-- Cột menu trái, chiếm 200px -->
-            <ColumnDefinition x:Name="SidebarColumn" Width="150"/>
-            <!-- Cột nội dung chính, chiếm phần còn lại -->
+            <ColumnDefinition x:Name="SidebarColumn" Width="220"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <!-- ========== THANH MENU BÊN TRÁI ========== -->
+
+        <!-- Sidebar Menu -->
         <Border Grid.Column="0"
                 Background="#2C3E50"
-                CornerRadius="0,10,10,0"
-                Padding="10">
-            <StackPanel VerticalAlignment="Top" Margin="0,20,0,0">
+                CornerRadius="0,10,10,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
                 <Button x:Name="btnMenu"
-                        Content="☰ Menu"
+                        Grid.Row="0"
                         Style="{StaticResource SidebarButtonStyle}"
-                        Click="btnMenu_Click"/>
+                        Click="btnMenu_Click">
+                    <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <Image Source="/UI/menu-4-24.png" Width="23"/>
+                        <TextBlock x:Name="txtMenu" Text="Menu" Margin="10,0,0,0" />
+                    </StackPanel>
+                </Button>
                 <Button x:Name="btnHome"
-                        Content="🏠 Home"
+                        Grid.Row="1"
                         Style="{StaticResource SidebarButtonStyle}"
-                        Click="btnHome_Click"/>
-                <!-- Nút Quản lý buổi học -->
+                        Click="btnHome_Click">
+                    <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <Image Source="/UI/home-24.png" Width="25"/>
+                        <TextBlock x:Name="txtHome" Text="Trang chủ" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </Button>
                 <Button x:Name="btnQuanLyBuoiHoc"
-                        Content="📚 Quản lý buổi học"
+                        Grid.Row="2"
                         Style="{StaticResource SidebarButtonStyle}"
-                        Click="btnQuanLyBuoiHoc_Click"/>
-                <!-- Nút Kiểm tra chất lượng chuyên cần -->
+                        Click="btnQuanLyBuoiHoc_Click">
+                    <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <Image Source="/UI/book-24.png" Width="25"/>
+                        <TextBlock x:Name="txtQuanLyBuoiHoc" Text="Quản lý buổi học" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </Button>
                 <Button x:Name="btnKiemTraChuyenCan"
-                        Content="📊 Kiểm tra chuyên cần"
+                        Grid.Row="3"
                         Style="{StaticResource SidebarButtonStyle}"
-                        Click="btnKiemTraChuyenCan_Click"/>
-                <!-- Nút Setting -->
+                        Click="btnKiemTraChuyenCan_Click">
+                    <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <Image Source="/UI/combo-24.png" Width="25"/>
+                        <TextBlock x:Name="txtKiemTraChuyenCan" Text="Kiểm tra chuyên cần" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </Button>
                 <Button x:Name="btnSetting"
-                        Content="⚙ Setting"
+                        Grid.Row="4"
                         Style="{StaticResource SidebarButtonStyle}"
-                        Click="btnSetting_Click"/>
-            </StackPanel>
+                        Click="btnSetting_Click">
+                    <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
+                        <Image Source="/UI/settings-24.png" Width="25"/>
+                        <TextBlock x:Name="txtSetting" Text="Cài đặt" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
         </Border>
-        <ContentControl x:Name="MainContenArea" Grid.Column="1"/>
+        <ContentControl x:Name="MainContentArea"
+                        Grid.Column="1" 
+                        Margin="10">
+            <TextBlock
+                Text="Chào Mừng Đến Với Hệ Thống Điểm Danh Qr"
+                FontSize="50"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"/>
+        </ContentControl>
     </Grid>
 </Window>

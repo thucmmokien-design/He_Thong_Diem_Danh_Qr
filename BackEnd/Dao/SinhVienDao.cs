@@ -1,6 +1,7 @@
 ﻿using He_Thong_Diem_Danh_Qr.BackEnd.Model;
 using System;
 using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
 using System.Text;
 
 namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao

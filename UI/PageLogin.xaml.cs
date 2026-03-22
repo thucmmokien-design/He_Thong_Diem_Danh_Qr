@@ -1,38 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using He_Thong_Diem_Danh_Qr.BackEnd.Model;
+using He_Thong_Diem_Danh_Qr.BackEnd.Service;
+using System;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace He_Thong_Diem_Danh_Qr.UI
 {
-    /// <summary>
-    /// Interaction logic for PageLogin.xaml
-    /// </summary>
     public partial class PageLogin : Window
     {
+        GiangVien giangVien = new GiangVien();
+        GiangVienService giangVienService = new GiangVienService();
         public PageLogin()
         {
             InitializeComponent();
         }
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtUsername.Text) ||string.IsNullOrWhiteSpace(txtPassword.Password))
+            if (string.IsNullOrWhiteSpace(txtUsername.Text) ||
+                string.IsNullOrWhiteSpace(txtPassword.Password))
             {
                 MessageBox.Show("Bạn điền thiếu thông tin");
                 return;
             }
-            if (txtUsername.Text == "admin" && txtPassword.Password == "123")
+
+            giangVien = giangVienService.DangNhap(txtUsername.Text, txtPassword.Password);
+
+            if (giangVien != null)
             {
-                MessageBox.Show("Login Thanh Cong");
-                PageHome home = new PageHome();
+                MessageBox.Show("Login Thành Công");
+
+                PageHome home = new PageHome(giangVien);
                 home.Show();
+
                 this.Close();
             }
             else

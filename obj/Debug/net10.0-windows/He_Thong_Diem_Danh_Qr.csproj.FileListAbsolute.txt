@@ -1,0 +1,109 @@
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.exe
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll.config
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.deps.json
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.runtimeconfig.json
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.pdb
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageHome.g.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageLogin.g.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr_MarkupCompile.cache
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr_MarkupCompile.lref
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageHome.baml
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageLogin.baml
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.g.resources
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.sourcelink.json
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\refint\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.pdb
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\ref\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageSendQr.g.cs
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\UI\PageSendQr.baml
+C:\Users\ADMIN\source\repos\He_Thong_Diem_Danh_Qr\He_Thong_Diem_Danh_Qr\obj\Debug\net10.0-windows\App.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageLogin.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageHome.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageLogin.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageSendQr.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr_MarkupCompile.cache
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr_MarkupCompile.lref
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\refint\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.pdb
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.exe
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll.config
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.deps.json
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.runtimeconfig.json
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.pdb
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\App.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageHome.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageSendQr.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.g.resources
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.sourcelink.json
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong.F7685858.Up2Date
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\He_Thong_Diem_Danh_Qr.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\ref\He_Thong_Diem_Danh_Qr.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Azure.Core.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Azure.Identity.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\System.ClientModel.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\System.Memory.Data.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageSetting.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageSetting.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageQuanLySinhVien.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageQuanLySinhVien.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageQuanLyChuyenCan.g.cs
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\obj\Debug\net10.0-windows\UI\PageQuanLyChuyenCan.baml
+C:\Users\ADMIN\OneDrive - Trường Đại Học Kiến Trúc Hà Nội\Desktop\BTL\bin\Debug\net10.0-windows\QRCoder.dll

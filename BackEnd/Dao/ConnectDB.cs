@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
 using System.Text;
 
 namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
@@ -7,8 +8,8 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
     public class ConnectDB
     {
         private static string connectionString =
-            "Server=localhost;" +
-            "Database=DiemDanhQR;" + // ten database trong may
+            "Server=QuocLui\\SQLEXPRESS;" +
+            "Database=qr_attendance_system;" + 
             "Integrated Security=True;" +
             "TrustServerCertificate=True";
 

@@ -8,7 +8,16 @@
     <Compile Update="UI\PageLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UI\PageQuanLyChuyenCan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\PageQuanLySinhVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UI\PageSendQr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\PageSetting.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -6,22 +6,37 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="UI\3dca3db9-78c2-4f40-9533-e816f6def63e.jpg" />
+    <None Remove="UI\book-24.png" />
+    <None Remove="UI\combo-24.png" />
+    <None Remove="UI\home-24.png" />
+    <None Remove="UI\menu-4-24.png" />
+    <None Remove="UI\pngegg.png" />
+    <None Remove="UI\search-12-24.png" />
+    <None Remove="UI\settings-24.png" />
+    <None Remove="UI\upload-3-24.png" />
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-    <Folder Include="Resources\icon\" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
+    <PackageReference Include="QRCoder" Version="1.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\img\background.jpg" />
-=======
-    <Resource Include="UI\3dca3db9-78c2-4f40-9533-e816f6def63e.jpg" />
->>>>>>> origin/Huy_Tung
+    <Resource Include="UI\book-24.png" />
+    <Resource Include="UI\combo-24.png" />
+    <Resource Include="UI\home-24.png" />
+    <Resource Include="UI\menu-4-24.png" />
+    <Resource Include="UI\pngegg.png" />
+    <Resource Include="UI\search-12-24.png" />
+    <Resource Include="UI\settings-24.png" />
+    <Resource Include="UI\upload-3-24.png" />
   </ItemGroup>
 
 </Project>
