@@ -13,7 +13,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
         public List<DiemQuaTrinh> getAll()
         {
             List<DiemQuaTrinh> list = new List<DiemQuaTrinh>();
-            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id;";
+            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\n,  \r\ndqt.tong_so_buoi_vang\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id;";
             using(SqlConnection conn = ConnectDB.GetConnection())
             {
                 conn.Open();
@@ -26,6 +26,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
                         class_id = dr["class_id"].ToString(),
                         so_lan_len_bang = Convert.ToInt32(dr["so_lan_len_bang"]),
                         diem_chuyen_can = Convert.ToSingle(dr["diem_chuyen_can"]),
+                        tong_so_buoi_vang = Convert.ToInt32(dr["tong_so_buoi_vang"]),
                         ghi_chu = dr["ghi_chu"].ToString()
                     };
                     list.Add(dqt);
@@ -36,7 +37,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
         public List<DiemQuaTrinh> searchName(String name)
         {
             List<DiemQuaTrinh> list = new List<DiemQuaTrinh>();
-            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id\r\nWHERE sv.hoten LIKE @name";
+            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\n,  \r\ndqt.tong_so_buoi_vang\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id\r\nWHERE sv.hoten LIKE @name";
             using (SqlConnection conn = ConnectDB.GetConnection()) {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand (sql, conn);
@@ -50,6 +51,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
                         class_id = rd["class_id"].ToString(),
                         so_lan_len_bang = Convert.ToInt32(rd["so_lan_len_bang"]),
                         diem_chuyen_can = Convert.ToSingle(rd["diem_chuyen_can"]),
+                        tong_so_buoi_vang = Convert.ToInt32(rd["tong_so_buoi_vang"]),
                         ghi_chu = rd["ghi_chu"].ToString()
                     };
                     list.Add(dqt);
@@ -86,7 +88,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
         public List<DiemQuaTrinh> searchNameAndClass(String name, String classId)
         {
             List<DiemQuaTrinh> list = new List<DiemQuaTrinh>();
-            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id\r\nWHERE sv.hoten LIKE @name AND lhp.class_id = @classId";
+            string sql = "SELECT \r\n    sv.hoten, \r\n    sv.msv, \r\n    lhp.class_id, \r\n    dqt.so_lan_len_bang, \r\n    dqt.diem_chuyen_can, \r\n    dqt.ghi_chu\r\n, \r\ndqt.tong_so_buoi_vang\r\nFROM diem_qua_trinh dqt\r\nJOIN sinh_vien sv ON sv.msv = dqt.msv\r\nJOIN lop_hoc_phan lhp ON lhp.class_id = dqt.class_id\r\nWHERE sv.hoten LIKE @name AND lhp.class_id = @classId";
             using (SqlConnection conn = ConnectDB.GetConnection()) {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand (sql, conn);
@@ -101,6 +103,7 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
                         class_id = rd["class_id"].ToString(),
                         so_lan_len_bang = Convert.ToInt32(rd["so_lan_len_bang"]),
                         diem_chuyen_can = Convert.ToSingle(rd["diem_chuyen_can"]),
+                        tong_so_buoi_vang = Convert.ToInt32(rd["tong_so_buoi_vang"]),
                         ghi_chu = rd["ghi_chu"].ToString()
                     };
                     list.Add(dqt);

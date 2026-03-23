@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\onedrive - tr\u01B0\u1EDDng \u0111\u1EA1i h\u1ECDc ki\u1EBFn tr\u00FAc h\u00E0 n\u1ED9i\\desktop\\btl\\backend\\dao\\diemquatrinhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:backend\\dao\\diemquatrinhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\onedrive - tr\u01B0\u1EDDng \u0111\u1EA1i h\u1ECDc ki\u1EBFn tr\u00FAc h\u00E0 n\u1ED9i\\desktop\\btl\\backend\\dao\\buoihocdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:backend\\dao\\buoihocdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\onedrive - tr\u01B0\u1EDDng \u0111\u1EA1i h\u1ECDc ki\u1EBFn tr\u00FAc h\u00E0 n\u1ED9i\\desktop\\btl\\backend\\dao\\diemdanhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:backend\\dao\\diemdanhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|c:\\users\\admin\\onedrive - tr\u01B0\u1EDDng \u0111\u1EA1i h\u1ECDc ki\u1EBFn tr\u00FAc h\u00E0 n\u1ED9i\\desktop\\btl\\ui\\pagequanlysinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{10832364-81BA-AE96-A76A-22A456F2F1D2}|He_Thong_Diem_Danh_Qr.csproj|solutionrelative:ui\\pagequanlysinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 204,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,33 +74,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuoiHoc.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Model\\BuoiHoc.cs",
-              "RelativeDocumentMoniker": "BackEnd\\Model\\BuoiHoc.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Model\\BuoiHoc.cs",
-              "RelativeToolTip": "BackEnd\\Model\\BuoiHoc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DiemQuaTrinhDao.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\DiemQuaTrinhDao.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Dao\\DiemQuaTrinhDao.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\DiemQuaTrinhDao.cs",
+              "RelativeToolTip": "BackEnd\\Dao\\DiemQuaTrinhDao.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAAFoAAADJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:32:49.867Z",
+              "WhenOpened": "2026-03-23T01:58:18.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConnectDB.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\ConnectDB.cs",
-              "RelativeDocumentMoniker": "BackEnd\\Dao\\ConnectDB.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\ConnectDB.cs",
-              "RelativeToolTip": "BackEnd\\Dao\\ConnectDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:29:54.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PageQuanLySinhVien.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLySinhVien.xaml.cs",
               "RelativeDocumentMoniker": "UI\\PageQuanLySinhVien.xaml.cs",
@@ -108,12 +95,11 @@
               "RelativeToolTip": "UI\\PageQuanLySinhVien.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:29:00.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:29:00.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PageSendQr.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSendQr.xaml.cs",
               "RelativeDocumentMoniker": "UI\\PageSendQr.xaml.cs",
@@ -121,24 +107,22 @@
               "RelativeToolTip": "UI\\PageSendQr.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:28:56.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:28:56.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PageSendQr.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSendQr.xaml",
               "RelativeDocumentMoniker": "UI\\PageSendQr.xaml",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSendQr.xaml",
               "RelativeToolTip": "UI\\PageSendQr.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-22T15:28:55.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:28:55.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PageSetting.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSetting.xaml.cs",
               "RelativeDocumentMoniker": "UI\\PageSetting.xaml.cs",
@@ -146,24 +130,59 @@
               "RelativeToolTip": "UI\\PageSetting.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:28:48.61Z",
+              "WhenOpened": "2026-03-22T15:28:48.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuoiHocDao.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\BuoiHocDao.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Dao\\BuoiHocDao.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\BuoiHocDao.cs",
+              "RelativeToolTip": "BackEnd\\Dao\\BuoiHocDao.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAASwEQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:27:18.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Dao\\ConnectDB.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\ConnectDB.cs",
+              "RelativeToolTip": "BackEnd\\Dao\\ConnectDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:29:54.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PageSetting.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSetting.xaml",
               "RelativeDocumentMoniker": "UI\\PageSetting.xaml",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageSetting.xaml",
               "RelativeToolTip": "UI\\PageSetting.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-22T15:28:44.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:28:44.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "BuoiHoc.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Model\\BuoiHoc.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Model\\BuoiHoc.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Model\\BuoiHoc.cs",
+              "RelativeToolTip": "BackEnd\\Model\\BuoiHoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T15:32:49.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BuoiHocService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Service\\BuoiHocService.cs",
               "RelativeDocumentMoniker": "BackEnd\\Service\\BuoiHocService.cs",
@@ -171,25 +190,11 @@
               "RelativeToolTip": "BackEnd\\Service\\BuoiHocService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA6wCcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:28:22.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:28:22.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BuoiHocDao.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\BuoiHocDao.cs",
-              "RelativeDocumentMoniker": "BackEnd\\Dao\\BuoiHocDao.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\BuoiHocDao.cs",
-              "RelativeToolTip": "BackEnd\\Dao\\BuoiHocDao.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAhwEQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:27:18.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DiemDanhDao.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Dao\\DiemDanhDao.cs",
               "RelativeDocumentMoniker": "BackEnd\\Dao\\DiemDanhDao.cs",
@@ -197,12 +202,11 @@
               "RelativeToolTip": "BackEnd\\Dao\\DiemDanhDao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:11:20.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:11:20.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HttpServerService.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\BackEnd\\Service\\HttpServerService.cs",
               "RelativeDocumentMoniker": "BackEnd\\Service\\HttpServerService.cs",
@@ -210,24 +214,22 @@
               "RelativeToolTip": "BackEnd\\Service\\HttpServerService.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAEwEQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:06:59.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:06:59.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PageQuanLyChuyenCan.xaml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLyChuyenCan.xaml",
               "RelativeDocumentMoniker": "UI\\PageQuanLyChuyenCan.xaml",
               "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLyChuyenCan.xaml",
               "RelativeToolTip": "UI\\PageQuanLyChuyenCan.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-22T15:06:13.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:06:13.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PageQuanLyChuyenCan.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLyChuyenCan.xaml.cs",
               "RelativeDocumentMoniker": "UI\\PageQuanLyChuyenCan.xaml.cs",
@@ -235,41 +237,7 @@
               "RelativeToolTip": "UI\\PageQuanLyChuyenCan.xaml.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAwwEcAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T15:06:07.399Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "39604b0a-b210-4836-8a47-f64f52501a05",
-        "Display": 2,
-        "X": -1311,
-        "Y": 320,
-        "Width": 2768,
-        "Height": 1494,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PageQuanLySinhVien.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLySinhVien.xaml",
-              "RelativeDocumentMoniker": "UI\\PageQuanLySinhVien.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110\u1EA1i H\u1ECDc Ki\u1EBFn Tr\u00FAc H\u00E0 N\u1ED9i\\Desktop\\BTL\\UI\\PageQuanLySinhVien.xaml",
-              "RelativeToolTip": "UI\\PageQuanLySinhVien.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-22T15:02:57.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T15:06:07.399Z"
             }
           ]
         }
