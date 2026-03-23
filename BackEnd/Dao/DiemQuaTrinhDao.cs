@@ -10,6 +10,27 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
 {
     class DiemQuaTrinhDao
     {
+        public SinhVienDao sinhviendao = new SinhVienDao();
+        public bool InsertLop(string class_id)
+        {
+            List<SinhVien> lssv = sinhviendao.GetAll();
+            string sql = "INSERT INTO diem_qua_trinh (msv, class_id) VALUES (@msv, @class_id)";
+
+            using (SqlConnection conn = ConnectDB.GetConnection())
+            {
+                conn.Open();
+                foreach (var sv in lssv)
+                {
+                    using (SqlCommand cd = new SqlCommand(sql, conn))
+                    {
+                        cd.Parameters.AddWithValue("@msv", sv.msv);
+                        cd.Parameters.AddWithValue("@class_id", class_id);
+                        cd.ExecuteNonQuery();
+                    }
+                }
+                return true;
+            }
+        }
         public List<DiemQuaTrinh> getAll()
         {
             List<DiemQuaTrinh> list = new List<DiemQuaTrinh>();
@@ -159,24 +180,28 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Dao
         public List<DiemDanh> tongSoBuoiVangSinhVien()
         {
             List<DiemDanh> list = new List<DiemDanh>();
-            string sql = "SELECT msv, COUNT(*) AS SoBuoiVang\r\nFROM diem_danh\r\nWHERE status = @vang\r\nGROUP BY msv;";
+            List<SinhVien> sinhVienList = sinhviendao.GetAll();
+            string sql = "SELECT COUNT(*) FROM diem_danh WHERE msv = @msv AND status = @vang";
             using (SqlConnection conn = ConnectDB.GetConnection())
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand (sql, conn);
-                cmd.Parameters.AddWithValue("@vang", "Vắng");
-                SqlDataReader rd = cmd.ExecuteReader();
-                while (rd.Read())
+                foreach (var sv in sinhVienList)
                 {
+                    SqlCommand cmd = new SqlCommand(sql, conn);
+                    cmd.Parameters.AddWithValue("@msv", sv.msv);
+                    cmd.Parameters.AddWithValue("@vang", "Vắng");
+
+                    int count = (int)cmd.ExecuteScalar();
+
                     DiemDanh dsdd = new DiemDanh
                     {
-                        msv = rd["msv"].ToString(),
-                        sobuoivang = Convert.ToInt32(rd["SoBuoiVang"])
+                        msv = sv.msv,
+                        sobuoivang = count
                     };
                     list.Add(dsdd);
                 }
-                return list;
             }
+            return list;
         }
         public bool upDateSoBuoiVang(DiemDanh diemDanh)
         {

@@ -42,6 +42,12 @@ namespace He_Thong_Diem_Danh_Qr.UI
         {
             string name = inputhoten.Text;
             string classId = (comboBoxHocPhan2.SelectedItem as LopHocPhan)?.class_id;
+            List<DiemQuaTrinh> src = diemQuaTrinhSevice.LayTatCaDiemQuaTrinh();
+            if (src == null || src.Count == 0)
+            {
+                string messd = diemQuaTrinhSevice.themhocsinh(classId);
+                MessageBox.Show(messd);
+            }
             if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(classId))
             {
                 dsChuyenCan.ItemsSource = diemQuaTrinhSevice.searchNameAndClass(name, classId);

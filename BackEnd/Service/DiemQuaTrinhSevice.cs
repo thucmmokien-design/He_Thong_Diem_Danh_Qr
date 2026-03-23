@@ -10,6 +10,15 @@ namespace He_Thong_Diem_Danh_Qr.BackEnd.Service
     class DiemQuaTrinhSevice
     {
         DiemQuaTrinhDao diemquatrinhdao = new DiemQuaTrinhDao();
+        public String themhocsinh(string class_id)
+        {
+            bool check = diemquatrinhdao.InsertLop(class_id);
+            if (check)
+            {
+                return "Thêm Học Sinh Thành Công";
+            }
+            return "Thêm Học Sinh Thất Bại";
+        }
         public List<DiemQuaTrinh> searchName(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
